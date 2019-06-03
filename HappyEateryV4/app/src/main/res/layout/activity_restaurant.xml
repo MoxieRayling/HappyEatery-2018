@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:animationCache="false"
+    android:background="@color/colorPrimary"
+    android:orientation="vertical"
+    tools:context="com.example.robin.happyeateryv4.RestaurantActivity">
+
+
+    <com.google.android.gms.maps.MapView
+        android:id="@+id/uiRestaurantMap"
+        android:layout_width="match_parent"
+        android:layout_height="189dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/uiNameTextView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:text="Restaurant Name"
+            android:textSize="30sp" />
+
+        <Button
+            android:id="@+id/uiFaveButton"
+            android:layout_width="283dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/colorPrimaryDark"
+            android:onClick="favourite"
+            android:text="Fave" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/uiDescTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@drawable/layout_bg"
+        android:padding="10dp"
+        android:textSize="24sp" />
+
+</LinearLayout>

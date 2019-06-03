@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">HappyEateryV4</string>
+    <string name="title_activity_result_tabs">ResultTabs</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="google_maps_key">AIzaSyC833noy-jfaZmEdvXp6hXcH36kvBLYO-o</string>
+    <string name="less_than" >\u003C\u003C List view</string >
+
+
+    <string name="api_rating_system">fhrs_1_en-gb</string>
+    <string name="comparator_less_than">LessThanOrEqual</string>
+    <string name="comparator_greater_than">GreaterThanOrEqual</string>
+    <string name="comparator_equal">Equal</string>
+
+    <string name="db_favourites">FAVOURITES</string>
+    <string name="db_name">NAME</string>
+    <string name="db_type">TYPE</string>
+    <string name="db_id">ID</string>
+    <string name="db_address_line_1">ADDRESSLINE1</string>
+    <string name="db_address_line_2">ADDRESSLINE2</string>
+    <string name="db_address_line_3">ADDRESSLINE3</string>
+    <string name="db_address_line_4">ADDRESSLINE4</string>
+    <string name="db_postcode">POSTCODE</string>
+    <string name="db_logitude">LONGITUDE</string>
+    <string name="db_latitude">LATITUDE</string>
+    <string name="db_rating">RATING</string>
+</resources>

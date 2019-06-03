@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.robin.happyeateryv4.Favourites"
+    android:background="@color/colorPrimary">
+
+
+    <TextView
+        android:id="@+id/uiTitleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="30dp"
+        android:paddingTop="30dp"
+        android:text="Favourites"
+        android:textAlignment="center"
+        android:textSize="50sp"
+        android:textStyle="bold" />
+
+    <ListView
+        android:id="@+id/uiFavouritesListView"
+        android:layout_width="match_parent"
+        android:layout_height="500dp"
+        android:layout_margin="10dp"
+        android:background="@drawable/layout_bg"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp">
+
+    </ListView>
+
+    <TextView
+        android:id="@+id/uiResultsTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+</LinearLayout>
